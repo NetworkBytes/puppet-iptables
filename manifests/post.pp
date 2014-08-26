@@ -1,4 +1,4 @@
-class linux_firewall::post {
+class iptables::post {
   firewall { '999 drop all':
     proto   => 'all',
     action  => 'drop',

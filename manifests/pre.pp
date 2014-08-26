@@ -1,4 +1,4 @@
-class linux_firewall::pre {
+class iptables::pre {
   Firewall {
     require => undef,
   }

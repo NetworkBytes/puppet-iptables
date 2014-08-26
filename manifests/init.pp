@@ -1,7 +1,7 @@
 
 
 
-class linux_firewall {
+class iptables {
 
     case $operatingsystemrelease {
        /^7.*/: {
@@ -14,11 +14,11 @@ class linux_firewall {
     }
 
     Firewall {
-        before  => Class['linux_firewall::post'],
-        require => Class['linux_firewall::pre'],
+        before  => Class['iptables::post'],
+        require => Class['iptables::pre'],
     }
 
-    class { ['linux_firewall::pre', 'linux_firewall::post']: }
+    class { ['iptables::pre', 'iptables::post']: }
     class { 'firewall': }
 }
 
