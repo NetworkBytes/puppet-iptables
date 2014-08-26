@@ -1,0 +1,17 @@
+{
+  "name": "networkbytes-iptables",
+  "version": "0.1.0",
+  "author": "networkbytes",
+  "summary": "Configures iptables",
+  "license": "Apache 2.0",
+  "source": "https://github.com/NetworkBytes/iptables",
+  "project_page": "https://github.com/NetworkBytes/iptables",
+  "issues_url": "https://github.com/NetworkBytes/iptables/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_range": ">= 1.0.0"
+    }
+  ]
+}
+
