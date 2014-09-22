@@ -1,6 +1,4 @@
 
-
-
 class iptables {
 
     case $operatingsystemrelease {

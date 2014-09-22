@@ -4,9 +4,9 @@
   "author": "networkbytes",
   "summary": "Configures iptables",
   "license": "Apache 2.0",
-  "source": "https://github.com/NetworkBytes/iptables",
-  "project_page": "https://github.com/NetworkBytes/iptables",
-  "issues_url": "https://github.com/NetworkBytes/iptables/issues",
+  "source": "https://github.com/NetworkBytes/puppet-iptables",
+  "project_page": "https://github.com/NetworkBytes/puppet-iptables",
+  "issues_url": "https://github.com/NetworkBytes/puppet-iptables/issues",
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
